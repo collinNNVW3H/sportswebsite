@@ -24,11 +24,7 @@
 
 		<h1> Sign Up </h1>
 
-		<nav>
-	    	<ul>
-	      		<li> <a class="left" href="index.html">Main Page</a> </li>
-	    	</ul>
-	 	</nav>
+		<?php include '../resources/navigation.php'; ?>
 	 	<div class="container">
 	 	     <div class= "jumbotron">
 	 	     <form>
