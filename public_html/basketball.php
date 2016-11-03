@@ -33,18 +33,9 @@
 
       <h1> Basketball News </h1>
       
-         <nav>
-          <ul>
-            <li> <a href="index.html">Main Page</a> </li>
-            <li> <a href="football.html">Football</a> </li>
-            <li> <a href="basketball.html">Basketball</a> </li>         
-            <li> <a href="baseball.html">Baseball</a> </li>          
-            <li> <a href="articles.html">Articles of the Day</a> </li>         
-            <li> <a href="about.html">About</a> </li>
-          </ul>
-        </nav>
+          <?php include '../resources/navigation.php'; ?>
 
-    <div class="container">
+ 
       <h2> Headlines </h2>
       
       <a href ="http://uproxx.com/dimemag/halloween-nba-logos/2/"> NBA Teams Release New Logos For Halloween Games </a>
@@ -134,10 +125,10 @@
       </tbody>
 
     </table>
-    </div>
+
          <img class="img-responsive" src="img/basketballb.png" alt="Basketball" />
     
-      <footer> &copy; Copyright 2016, iSports News</footer>
+      <?php include '../resources/footer.php'; ?>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>

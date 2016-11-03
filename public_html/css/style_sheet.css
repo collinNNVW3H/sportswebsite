@@ -25,8 +25,6 @@ nav li a {
 
 nav li a:hover {
     background-color: #7A611F;
-    text-decoration: none;
-    color: #efe8d5;
 }
 
 h1 {
@@ -39,39 +37,51 @@ h1 {
     padding:10px;
 }
 
+h2{
+    padding-right: 50px;
+    color: #053725;
+}
+
+h3{
+    padding-right: 50px;
+    color: #053725;
+}
+
+
+    
 footer{
     text-align: center;
 }
 
 form {
-    margin: 50px;
+    margin: 40px;
     text-align: center;
-    padding: 3px;
+    padding-top: 40px;
     border-style: solid;
     border-width: 3px;
-    border-radius: 15px;
-    border-color: #6F1C31;
+    border-radius: 20px;
+    border-color: #053725;
 }
 
 table {
-padding: 3px;
-border-style: solid;
-border-width: 3px;
-margin: 5px;
-border-radius: 15px;
-border-color: #6F1C31;
-border: 3px solid #6F1C31;
-border-collapse: collapse;
-color: black;
+    padding: 3px;
+    border-style: solid;
+    border-width: 3px;
+    margin: 5px;
+    border-radius: 15px;
+    border-color: #6F1C31;
+    border: 3px solid #6F1C31;
+    border-collapse: collapse;
+    color: black;
 }
 
 table thead th{
-padding: 10px;
-background-color: #053725;
-color: #E5D099;
+   padding: 10px;
+   background-color: #053725;
+   color: #E5D099;
 
 }
 
 table tbody td {
-padding: 10px;
+    padding: 10px;
 }
